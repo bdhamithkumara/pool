@@ -19,7 +19,6 @@
     "rc-scroll-anim": "^2.7.6",
     "rc-tween-one": "^3.0.6",
     "react": "^18",
-    "react-animate-on-scroll": "^2.1.7",
     "react-awesome-reveal": "^4.2.8",
     "react-dom": "^18",
     "react-draggable": "^4.4.6",
