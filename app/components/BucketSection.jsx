@@ -5,7 +5,7 @@ import Bucket from '../components/bucket/Bucket'
 const BucketSection = () => {
     return (
         <section className='h-auto w-full  '>
-            <div className='lg:mx-28 sm:mx-10 mx-4 '>
+            <div className='lg:mx-28 sm:mx-10 mx-4 mb-10'>
                 <div className='flex justify-center'>
                 <div className='mt-[80px]'>
                 <div className='w-fit h-auto border-[1px] py-[4px] px-[12px] rounded-[99px] hero-top-button  relative my-box-shadow-bucket'>
@@ -29,7 +29,7 @@ const BucketSection = () => {
                             </svg>
                         </span>
                         <div className='flex gap-[8px]'>
-                            <Image src={PinkPeople} alt='Pink People image' className='my-auto' />
+                           
                             <span className='text-[#B8B8B8] text-[14px] font-normal my-auto'>Cultivated talent pool</span>
                         </div>
                         <span className='my-auto'>

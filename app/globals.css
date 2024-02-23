@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color : black;
+}
+
 #capsuel {
   width: 100%;
   height: 100%;
@@ -10,4 +14,43 @@
   top: 0;
   left: 0;
   border-radius: 18px ;
+}
+
+
+.hero-top-button {
+  border: 1px solid rgba(160, 145, 221, 0.25);
+  background:  linear-gradient(180deg, rgba(25, 25, 55, 0.74) 6.95%, rgba(12, 13, 39, 0.00) 36.13%, rgba(54, 53, 104, 0.74) 100%);
+  backdrop-filter: blur(20.049999237060547px);
+
+}
+
+
+.my-box-shadow-bucket::before,
+.my-box-shadow-bucket::after
+{
+    position:absolute;
+    z-index:-1;
+    right : -35px;
+    top : 29px;
+  content: '';
+  width: 165px;
+  height: 10px;
+  flex-shrink: 0;
+  background: var(--light-shadow-bg, linear-gradient(90deg, rgba(244, 236, 255, 0.23) 0.07%, rgba(244, 236, 255, 0.41) 56.69%, rgba(244, 236, 255, 0.23) 111.09%));
+  filter: blur(17.75px);
+  display: block;
+}
+
+.bucket-main-style{
+  border-radius: 0px 0px 18px 18px;
+  background-image: url("../public/img/bucketSection/bg.svg");
+  border : 1px solid #d9d9d933;
+  border-top: none;
+}
+
+.our-story-text-color {
+  background: linear-gradient(180deg, #FFF 43.37%, rgba(63, 43, 92, 0.60) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
